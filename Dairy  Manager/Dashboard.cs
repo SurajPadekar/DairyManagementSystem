@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,10 @@ namespace Dairy__Manager
     {
         public Dashboard()
         {
-                InitializeComponent(); 
+                InitializeComponent();
+            Finance();
+            Logistics();
+            GetMax();
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -60,6 +64,90 @@ namespace Dairy__Manager
         }
 
         private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        SqlConnection Con = new SqlConnection(@"Data Source=LAPTOP-K0VE1E79\SQLEXPRESS04;Initial Catalog=DairyFarmDb;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
+        private void Finance()
+        {
+            Con.Open();
+            SqlDataAdapter sda = new SqlDataAdapter("select sum(IncAmt) from IncomeTbl", Con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            int inc, exp;
+            double bal;
+            inc = Convert.ToInt32(dt.Rows[0][0].ToString());
+
+            IncLbl.Text = "Rs " + dt.Rows[0][0].ToString();
+
+            SqlDataAdapter sda1 = new SqlDataAdapter("select sum(ExpAmount) from ExpenditureTbl", Con);
+            DataTable dt1 = new DataTable();
+            sda1.Fill(dt1);
+            exp = Convert.ToInt32(dt1.Rows[0][0].ToString());
+            bal = inc - exp;
+            ExpLbl.Text = "Rs " + dt1.Rows[0][0].ToString();
+            BalLbl.Text = "Rs " + bal;
+            Con.Close();
+        }
+
+        private void Logistics()
+        {
+            Con.Open();
+            SqlDataAdapter sda = new SqlDataAdapter("select count(*) from CowTbl", Con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            CownumLbl.Text = dt.Rows[0][0].ToString();
+
+            SqlDataAdapter sda1 = new SqlDataAdapter("select sum(TotalMilk) from MilkTable", Con);
+            DataTable dt1 = new DataTable();
+            sda1.Fill(dt1);
+            MilkLbl.Text = dt1.Rows[0][0].ToString() + " Litters";
+
+            SqlDataAdapter sda2 = new SqlDataAdapter("select count(*) from EmployeeTbl", Con);
+            DataTable dt2 = new DataTable();
+            sda2.Fill(dt2);
+            EmpNumLbl.Text = dt2.Rows[0][0].ToString();
+            Con.Close();
+        }
+
+        private void GetMax()
+        {
+            Con.Open();
+
+            // Get the maximum income amount and its date
+            SqlDataAdapter sda = new SqlDataAdapter("select Top 1 IncAmt, IncDate from IncomeTbl order by IncAmt desc", Con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            // Display the maximum income amount and its date
+            HighAmtLbl.Text = "Rs " + dt.Rows[0]["IncAmt"].ToString();
+            HighDateLbl.Text = dt.Rows[0]["IncDate"].ToString();
+
+            //----------------------------------------
+
+            SqlDataAdapter sda1 = new SqlDataAdapter("select Top 1 ExpAmount, ExpDate from ExpenditureTbl order by ExpAmount desc", Con);
+            DataTable dt1 = new DataTable();
+            sda1.Fill(dt1);
+
+            // Display the maximum expenditure amount and its date
+            HighExpLbl.Text = "Rs " + dt1.Rows[0]["ExpAmount"].ToString();
+            HighExpDate.Text = dt1.Rows[0]["ExpDate"].ToString();
+
+            Con.Close();
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label32_Click(object sender, EventArgs e)
         {
 
         }

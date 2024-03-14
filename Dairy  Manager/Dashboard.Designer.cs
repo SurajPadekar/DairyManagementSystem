@@ -63,35 +63,35 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.BalLbl = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.ExpLbl = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.IncLbl = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.EmpNumLbl = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.MilkLbl = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.CownumLbl = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.HighDateLbl = new System.Windows.Forms.Label();
+            this.HighAmtLbl = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.HighExpDate = new System.Windows.Forms.Label();
+            this.HighExpLbl = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel6.SuspendLayout();
@@ -110,9 +110,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel8.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -470,74 +470,36 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(211)))));
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Controls.Add(this.panel13);
             this.panel10.Controls.Add(this.panel12);
             this.panel10.Controls.Add(this.panel11);
             this.panel10.Controls.Add(this.label2);
             this.panel10.Location = new System.Drawing.Point(527, 84);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(805, 264);
+            this.panel10.Size = new System.Drawing.Size(824, 264);
             this.panel10.TabIndex = 70;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(322, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 37);
-            this.label2.TabIndex = 35;
-            this.label2.Text = "Fianance";
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.NavajoWhite;
-            this.panel11.Controls.Add(this.label31);
-            this.panel11.Controls.Add(this.label3);
-            this.panel11.Location = new System.Drawing.Point(38, 80);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(219, 132);
-            this.panel11.TabIndex = 36;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(35, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 37);
-            this.label3.TabIndex = 36;
-            this.label3.Text = "Income";
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.SandyBrown;
-            this.panel12.Controls.Add(this.label32);
-            this.panel12.Controls.Add(this.label4);
-            this.panel12.Location = new System.Drawing.Point(285, 80);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(219, 132);
-            this.panel12.TabIndex = 37;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(192, 37);
-            this.label4.TabIndex = 36;
-            this.label4.Text = "Expanditure";
+            this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
             // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.NavajoWhite;
-            this.panel13.Controls.Add(this.label33);
+            this.panel13.Controls.Add(this.BalLbl);
             this.panel13.Controls.Add(this.label5);
-            this.panel13.Location = new System.Drawing.Point(530, 80);
+            this.panel13.Location = new System.Drawing.Point(559, 80);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(219, 132);
+            this.panel13.Size = new System.Drawing.Size(240, 132);
             this.panel13.TabIndex = 38;
+            // 
+            // BalLbl
+            // 
+            this.BalLbl.AutoSize = true;
+            this.BalLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BalLbl.Location = new System.Drawing.Point(12, 62);
+            this.BalLbl.Name = "BalLbl";
+            this.BalLbl.Size = new System.Drawing.Size(54, 37);
+            this.BalLbl.TabIndex = 41;
+            this.BalLbl.Text = "Rs";
             // 
             // label5
             // 
@@ -549,33 +511,115 @@
             this.label5.TabIndex = 36;
             this.label5.Text = "Balance";
             // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.SandyBrown;
+            this.panel12.Controls.Add(this.ExpLbl);
+            this.panel12.Controls.Add(this.label4);
+            this.panel12.Location = new System.Drawing.Point(285, 80);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(234, 132);
+            this.panel12.TabIndex = 37;
+            // 
+            // ExpLbl
+            // 
+            this.ExpLbl.AutoSize = true;
+            this.ExpLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExpLbl.Location = new System.Drawing.Point(12, 62);
+            this.ExpLbl.Name = "ExpLbl";
+            this.ExpLbl.Size = new System.Drawing.Size(54, 37);
+            this.ExpLbl.TabIndex = 40;
+            this.ExpLbl.Text = "Rs";
+            this.ExpLbl.Click += new System.EventHandler(this.label32_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(192, 37);
+            this.label4.TabIndex = 36;
+            this.label4.Text = "Expanditure";
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.NavajoWhite;
+            this.panel11.Controls.Add(this.IncLbl);
+            this.panel11.Controls.Add(this.label3);
+            this.panel11.Location = new System.Drawing.Point(23, 80);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(234, 132);
+            this.panel11.TabIndex = 36;
+            // 
+            // IncLbl
+            // 
+            this.IncLbl.AutoSize = true;
+            this.IncLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IncLbl.Location = new System.Drawing.Point(8, 62);
+            this.IncLbl.Name = "IncLbl";
+            this.IncLbl.Size = new System.Drawing.Size(54, 37);
+            this.IncLbl.TabIndex = 39;
+            this.IncLbl.Text = "Rs";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(8, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(122, 37);
+            this.label3.TabIndex = 36;
+            this.label3.Text = "Income";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(322, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(144, 37);
+            this.label2.TabIndex = 35;
+            this.label2.Text = "Fianance";
+            // 
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(255)))), ((int)(((byte)(211)))));
+            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel14.Controls.Add(this.panel15);
             this.panel14.Controls.Add(this.panel16);
             this.panel14.Controls.Add(this.panel17);
             this.panel14.Controls.Add(this.label9);
             this.panel14.Location = new System.Drawing.Point(527, 371);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(805, 264);
+            this.panel14.Size = new System.Drawing.Size(824, 264);
             this.panel14.TabIndex = 71;
             // 
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.SandyBrown;
-            this.panel15.Controls.Add(this.label36);
+            this.panel15.Controls.Add(this.EmpNumLbl);
             this.panel15.Controls.Add(this.label6);
-            this.panel15.Location = new System.Drawing.Point(530, 75);
+            this.panel15.Location = new System.Drawing.Point(559, 75);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(219, 132);
+            this.panel15.Size = new System.Drawing.Size(240, 132);
             this.panel15.TabIndex = 38;
+            // 
+            // EmpNumLbl
+            // 
+            this.EmpNumLbl.AutoSize = true;
+            this.EmpNumLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmpNumLbl.Location = new System.Drawing.Point(3, 71);
+            this.EmpNumLbl.Name = "EmpNumLbl";
+            this.EmpNumLbl.Size = new System.Drawing.Size(166, 37);
+            this.EmpNumLbl.TabIndex = 44;
+            this.EmpNumLbl.Text = "EmpName";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(22, 9);
+            this.label6.Location = new System.Drawing.Point(12, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(169, 37);
             this.label6.TabIndex = 36;
@@ -584,18 +628,28 @@
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.NavajoWhite;
-            this.panel16.Controls.Add(this.label35);
+            this.panel16.Controls.Add(this.MilkLbl);
             this.panel16.Controls.Add(this.label7);
             this.panel16.Location = new System.Drawing.Point(285, 75);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(219, 132);
+            this.panel16.Size = new System.Drawing.Size(234, 132);
             this.panel16.TabIndex = 37;
+            // 
+            // MilkLbl
+            // 
+            this.MilkLbl.AutoSize = true;
+            this.MilkLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MilkLbl.Location = new System.Drawing.Point(12, 71);
+            this.MilkLbl.Name = "MilkLbl";
+            this.MilkLbl.Size = new System.Drawing.Size(86, 37);
+            this.MilkLbl.TabIndex = 43;
+            this.MilkLbl.Text = "Num";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(31, 9);
+            this.label7.Location = new System.Drawing.Point(12, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(168, 37);
             this.label7.TabIndex = 36;
@@ -604,18 +658,28 @@
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.SandyBrown;
-            this.panel17.Controls.Add(this.label34);
+            this.panel17.Controls.Add(this.CownumLbl);
             this.panel17.Controls.Add(this.label8);
-            this.panel17.Location = new System.Drawing.Point(38, 75);
+            this.panel17.Location = new System.Drawing.Point(23, 75);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(219, 132);
+            this.panel17.Size = new System.Drawing.Size(234, 132);
             this.panel17.TabIndex = 36;
+            // 
+            // CownumLbl
+            // 
+            this.CownumLbl.AutoSize = true;
+            this.CownumLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CownumLbl.Location = new System.Drawing.Point(8, 71);
+            this.CownumLbl.Name = "CownumLbl";
+            this.CownumLbl.Size = new System.Drawing.Size(86, 37);
+            this.CownumLbl.TabIndex = 42;
+            this.CownumLbl.Text = "Num";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(64, 9);
+            this.label8.Location = new System.Drawing.Point(13, 9);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(93, 37);
             this.label8.TabIndex = 36;
@@ -634,13 +698,34 @@
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel18.Controls.Add(this.label28);
-            this.panel18.Controls.Add(this.label27);
+            this.panel18.Controls.Add(this.HighDateLbl);
+            this.panel18.Controls.Add(this.HighAmtLbl);
             this.panel18.Controls.Add(this.label24);
-            this.panel18.Location = new System.Drawing.Point(599, 662);
+            this.panel18.Location = new System.Drawing.Point(527, 662);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(324, 153);
+            this.panel18.Size = new System.Drawing.Size(396, 153);
             this.panel18.TabIndex = 37;
+            // 
+            // HighDateLbl
+            // 
+            this.HighDateLbl.AutoSize = true;
+            this.HighDateLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HighDateLbl.Location = new System.Drawing.Point(5, 107);
+            this.HighDateLbl.Name = "HighDateLbl";
+            this.HighDateLbl.Size = new System.Drawing.Size(149, 37);
+            this.HighDateLbl.TabIndex = 38;
+            this.HighDateLbl.Text = "Sale Date";
+            // 
+            // HighAmtLbl
+            // 
+            this.HighAmtLbl.AutoSize = true;
+            this.HighAmtLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HighAmtLbl.Location = new System.Drawing.Point(3, 54);
+            this.HighAmtLbl.Name = "HighAmtLbl";
+            this.HighAmtLbl.Size = new System.Drawing.Size(54, 37);
+            this.HighAmtLbl.TabIndex = 37;
+            this.HighAmtLbl.Text = "Rs";
+            this.HighAmtLbl.Click += new System.EventHandler(this.label27_Click);
             // 
             // label24
             // 
@@ -655,13 +740,33 @@
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel19.Controls.Add(this.label30);
-            this.panel19.Controls.Add(this.label29);
+            this.panel19.Controls.Add(this.HighExpDate);
+            this.panel19.Controls.Add(this.HighExpLbl);
             this.panel19.Controls.Add(this.label26);
             this.panel19.Location = new System.Drawing.Point(964, 662);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(318, 153);
+            this.panel19.Size = new System.Drawing.Size(387, 153);
             this.panel19.TabIndex = 39;
+            // 
+            // HighExpDate
+            // 
+            this.HighExpDate.AutoSize = true;
+            this.HighExpDate.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HighExpDate.Location = new System.Drawing.Point(3, 107);
+            this.HighExpDate.Name = "HighExpDate";
+            this.HighExpDate.Size = new System.Drawing.Size(149, 37);
+            this.HighExpDate.TabIndex = 39;
+            this.HighExpDate.Text = "Sale Date";
+            // 
+            // HighExpLbl
+            // 
+            this.HighExpLbl.AutoSize = true;
+            this.HighExpLbl.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HighExpLbl.Location = new System.Drawing.Point(3, 54);
+            this.HighExpLbl.Name = "HighExpLbl";
+            this.HighExpLbl.Size = new System.Drawing.Size(54, 37);
+            this.HighExpLbl.TabIndex = 39;
+            this.HighExpLbl.Text = "Rs";
             // 
             // label26
             // 
@@ -672,107 +777,6 @@
             this.label26.Size = new System.Drawing.Size(309, 37);
             this.label26.TabIndex = 36;
             this.label26.Text = "Highest Expanditure";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(3, 54);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(54, 37);
-            this.label27.TabIndex = 37;
-            this.label27.Text = "Rs";
-            this.label27.Click += new System.EventHandler(this.label27_Click);
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(13, 107);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(149, 37);
-            this.label28.TabIndex = 38;
-            this.label28.Text = "Sale Date";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(3, 54);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(54, 37);
-            this.label29.TabIndex = 39;
-            this.label29.Text = "Rs";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(24, 107);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(149, 37);
-            this.label30.TabIndex = 39;
-            this.label30.Text = "Sale Date";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(64, 55);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(54, 37);
-            this.label31.TabIndex = 39;
-            this.label31.Text = "Rs";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(57, 55);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(54, 37);
-            this.label32.TabIndex = 40;
-            this.label32.Text = "Rs";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(39, 55);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(54, 37);
-            this.label33.TabIndex = 41;
-            this.label33.Text = "Rs";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(47, 55);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(86, 37);
-            this.label34.TabIndex = 42;
-            this.label34.Text = "Num";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(22, 55);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(86, 37);
-            this.label35.TabIndex = 43;
-            this.label35.Text = "Num";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(12, 55);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(166, 37);
-            this.label36.TabIndex = 44;
-            this.label36.Text = "EmpName";
             // 
             // Dashboard
             // 
@@ -790,6 +794,7 @@
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -818,12 +823,12 @@
             this.panel8.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
             this.panel15.ResumeLayout(false);
@@ -895,15 +900,15 @@
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label HighAmtLbl;
+        private System.Windows.Forms.Label HighDateLbl;
+        private System.Windows.Forms.Label HighExpDate;
+        private System.Windows.Forms.Label HighExpLbl;
+        private System.Windows.Forms.Label BalLbl;
+        private System.Windows.Forms.Label ExpLbl;
+        private System.Windows.Forms.Label IncLbl;
+        private System.Windows.Forms.Label EmpNumLbl;
+        private System.Windows.Forms.Label MilkLbl;
+        private System.Windows.Forms.Label CownumLbl;
     }
 }
